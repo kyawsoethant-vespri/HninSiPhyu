@@ -2,6 +2,7 @@ import React from "react";
 import NavList from "./NavList";
 import { CgShoppingCart } from "react-icons/cg";
 import { VscAccount } from "react-icons/vsc";
+import { BsBook } from "react-icons/bs";
 import SideBar from "./SideBar";
 
 const NavBar = () => {
@@ -16,9 +17,7 @@ const NavBar = () => {
 
           <NavList />
 
-          <div className="">
-            
-          </div>
+          <div className=""></div>
 
           <div>
             <div className=" text-xl text-slate-900">
@@ -26,6 +25,15 @@ const NavBar = () => {
             </div>
             <div className=" text-xs font-medium font-sans lg:text-sm md:text-sm lg:py-1 md:py-1">
               Basket
+            </div>
+          </div>
+
+          <div>
+            <div className=" text-xl text-slate-900">
+              <BsBook />
+            </div>
+            <div className=" text-xs font-medium font-sans lg:text-sm md:text-sm lg:py-1 md:py-1">
+              About
             </div>
           </div>
 
